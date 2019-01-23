@@ -8,5 +8,5 @@ import retrofit2.http.GET
 interface Api {
     @GET("users")
     fun fetchUsers(): Observable<ApiListResponse<User>>
-    
+
 }
