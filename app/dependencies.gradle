@@ -1,14 +1,6 @@
 dependencies {
 
-    // Android Support
-
-
-
-
-
-    // Android Databinding
     kapt 'com.android.databinding:compiler:3.1.4'
-
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -41,10 +33,10 @@ dependencies {
     implementation 'io.reactivex:rxkotlin:2.0.0-RC1'
 
     // Dagger 2
-/*    implementation 'com.google.dagger:dagger:2.16'
+    implementation 'com.google.dagger:dagger:2.16'
     kapt 'com.google.dagger:dagger-compiler:2.16'
     implementation 'com.google.dagger:dagger-android-support:2.16'
-    kapt 'com.google.dagger:dagger-android-processor:2.16'*/
+    kapt 'com.google.dagger:dagger-android-processor:2.16'
 
     // Unit Tests
 /*    testImplementation 'junit:junit:4.12'
